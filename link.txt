@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kAPEXLab/assignment/refs/heads/main/thread.md
+https://raw.githubusercontent.com/kAPEXLab/md-config/refs/heads/main/code.md
