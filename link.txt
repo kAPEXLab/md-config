@@ -1,1 +1,1 @@
-https://github.com/kAPEXLab/viewer/blob/main/uarttime.md
+https://github.com/kAPEXLab/md-config/blob/main/code.md
