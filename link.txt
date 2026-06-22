@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kAPEXLab/C-Programming/refs/heads/main/question-bank.md
+https://raw.githubusercontent.com/kAPEXLab/assignment/refs/heads/main/posixshm.md
