@@ -1,1 +1,1 @@
-https://github.com/kAPEXLab/Linux-Introduction/blob/main/POSIX/overview.md
+https://raw.githubusercontent.com/kAPEXLab/Linux-Introduction/refs/heads/main/POSIX/overview.md
