@@ -42,3 +42,38 @@ int main()
 
 }
 ````
+
+# ADC Polling
+
+````c
+int main(void)
+{
+ 
+  char msg[50];
+  while (1)
+  {
+	  HAL_ADC_Start(&hadc1);
+	  /* Poll for ADC conversion completion */
+	  	 if (HAL_ADC_PollForConversion(&hadc1, 100) == HAL_OK)
+	  	 {
+ 
+ 
+	  		uint32_t raw = HAL_ADC_GetValue(&hadc1);
+ 
+	  		// Convert raw to millivolts (mV)
+	  	    uint32_t voltage_mv = (raw * 3300) / 4095;  // 3.3V = 3300mV
+ 
+ 
+	  	  // LM35 gives 10mV per °C
+	  	    uint32_t Temp = voltage_mv / 10;
+ 
+ 
+	  	 sprintf(msg, "Temp = %ld °C\r\n", Temp);
+	  	 HAL_UART_Transmit(&huart2, (uint8_t *)msg, strlen(msg), HAL_MAX_DELAY);
+ 
+	  	  }
+	  	HAL_Delay(1000);
+ 
+  }
+}
+````
