@@ -5,7 +5,7 @@ uint8_t txMsg[] = "Enter Data:\r\n";
 uint8_t rxData;
 int main()
 {
-  HAL_UART_Transmit(&hlpuart1, txMsg, 13, HAL_MAX_DELAY);
+  HAL_UART_Transmit(&huart2, txMsg, 13, HAL_MAX_DELAY);
   while (1)
       {
       /* -------- RX with check -------- */
@@ -56,8 +56,7 @@ int main(void)
 	  /* Poll for ADC conversion completion */
 	  	 if (HAL_ADC_PollForConversion(&hadc1, 100) == HAL_OK)
 	  	 {
- 
- 
+  
 	  		uint32_t raw = HAL_ADC_GetValue(&hadc1);
  
 	  		// Convert raw to millivolts (mV)
