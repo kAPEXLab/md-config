@@ -16,7 +16,6 @@ int main()
       }
       HAL_Delay(1000);
       }
-	 }
 }
 ````
 
