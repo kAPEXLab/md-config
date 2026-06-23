@@ -9,10 +9,10 @@ int main()
   while (1)
       {
       /* -------- RX with check -------- */
-      if (HAL_UART_Receive(&hlpuart1, &rxData, 1, 100) == HAL_OK)
+      if (HAL_UART_Receive(&huart2, &rxData, 1, 100) == HAL_OK)
 	  {
          /* -------- Echo only when data received -------- */
-          HAL_UART_Transmit(&hlpuart1, &rxData, 1, HAL_MAX_DELAY);
+          HAL_UART_Transmit(&huart2, &rxData, 1, HAL_MAX_DELAY);
       }
       HAL_Delay(1000);
       }
