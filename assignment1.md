@@ -1,4 +1,3 @@
-````md
 # Portable Tilt Status Indicator using STM32F446RE and MPU6050
 
 ## 1. Overview
