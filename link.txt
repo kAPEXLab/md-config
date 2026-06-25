@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kAPEXLab/md-config/main/assignment1.md
+https://raw.githubusercontent.com/kAPEXLab/rtos-embedded-systems-training/main/05_queue_communication/exercise_05.md
