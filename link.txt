@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kAPEXLab/md-config//main/assignment2.md
+https://raw.githubusercontent.com/kAPEXLab/C-Programming/main/Question-Bank/01-variables-and-enums/Q1-ADC-Temp-Conversion.md
