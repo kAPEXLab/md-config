@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/kAPEXLab/C-Programming/main/Question-Bank/01-variables-and-enums/Q2-Two-Point-Calibration-Map.md
+https://raw.githubusercontent.com/kAPEXLab/C-Programming/main/Question-Bank/01-variables-and-enums/Q3-Map-Operating-Mode-to-CPU-Frequency.md
