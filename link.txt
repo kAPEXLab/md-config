@@ -1,1 +1,2 @@
 https://raw.githubusercontent.com/kAPEXLab/C-Programming/main/Question-Bank/01-variables-and-enums/Q3-Map-Operating-Mode-to-CPU-Frequency.md
+https://raw.githubusercontent.com/kAPEXLab/md-config/main/assignment3.md
